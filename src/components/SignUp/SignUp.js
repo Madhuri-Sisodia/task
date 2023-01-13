@@ -69,7 +69,7 @@ const SignUp = (props) => {
         <Input
           type="password"
           id="password"
-          placeholder="password"
+          placeholder="Password"
           register={{ ...register("password") }}
           errorMessage={errors.password?.message}
         />

@@ -14,7 +14,7 @@ const Input = ({
         style={{
           borderRadius: "60px",
           border: "1px solid",
-          padding: "10px 15px",
+          padding: "11px 15px",
         }}
         id={id}
         type={type}
