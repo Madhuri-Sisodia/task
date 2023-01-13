@@ -1,0 +1,48 @@
+.header {
+  
+
+    background-color: white;
+    min-height: 10vh;
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    padding: 0.7%;
+  }
+  
+  .header nav {
+    height: 100%;
+  }
+  
+  .header ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header li {
+    margin: 0 2rem;
+    width: 5rem;
+    padding-top: 1rem;
+  }
+  
+  .header a {
+    color: rgb(9, 0, 0);
+    text-decoration: none;
+  }
+  
+  .header a:hover,
+  .header a:active,
+  .header a.active {
+    color: #0d0109;
+    padding-bottom: 0.25rem;
+    border-bottom: 3px solid #dc0f97;
+
+  }
